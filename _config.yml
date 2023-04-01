@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: tommyhu的部落格
+title: Tommyhu's blog
 subtitle: '专注互联网开发及运营技术'
 description: '专注互联网开发及运营技术，提供相关资料及软件下载，奇趣网络时事评论！'
 keywords: 专注互联网开发及运营技术
@@ -102,4 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/hiTommyhu/hiTommyhu.github.io
+  branch: gh-pages
