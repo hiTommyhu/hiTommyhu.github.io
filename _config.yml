@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -105,3 +105,17 @@ deploy:
   type: git
   repo: https://github.com/hiTommyhu/hiTommyhu.github.io
   branch: gh-pages
+
+marked:
+  prependRoot: true
+  postAsset: true
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '####'
+    style: header-anchor
