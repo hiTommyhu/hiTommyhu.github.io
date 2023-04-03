@@ -44,6 +44,7 @@
 </section>
 <% } %>
 
+<% if (!index){ %>
 <section id="comments"></section>
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
@@ -60,3 +61,4 @@ const gitalk = new Gitalk({
 
 gitalk.render('comments')
 </script>
+<% } %>
